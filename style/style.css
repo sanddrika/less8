@@ -1,0 +1,22 @@
+.pic {
+  width: 100%;
+  height: 787px;
+}
+/* pirveli fifqi  */
+.pirveli {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  animation-name: snowflake1;
+  animation-duration: 5s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin-left: 100px;
+}
+@keyframes snowflake1{
+    from{top: -100px;}
+    to{top: 787px;}
+}
+

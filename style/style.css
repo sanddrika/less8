@@ -1,22 +1,312 @@
+/* ქრისტინას  */
+/* მოკლედ ძაან ბევრი ვიწვალე მარა ვერ გავასწორე :(( 
+  ასე რომ ეს მწირი კოდი დავტოვე უბრალოდ დრო აღარაა ამისი :(( */
+
+
+
 .pic {
+  position: relative;
   width: 100%;
-  height: 787px;
+  height:auto;
+ 
+  
 }
+
+/* 1 wyvili */
 /* pirveli fifqi  */
 .pirveli {
   width: 100px;
   height: 100px;
-  background: red;
   position: absolute;
-  animation-name: snowflake1;
-  animation-duration: 5s;
-  animation-delay: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
   margin-left: 100px;
+  font-size: 45px;
+  color: #fff;
+  /* background: red; */
+  display: flex;
+  animation-name: snowflake1;
+  animation-duration: 15s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
 }
-@keyframes snowflake1{
-    from{top: -100px;}
-    to{top: 787px;}
+@keyframes snowflake1 {
+  from {
+    top: 0px;
+    rotate: -360deg;
+  }
+  to {
+    top: 600px;
+  }
+}
+.margin1 {
+  margin-left: 940px;
+}
+/* .meore {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-left: 200px;
+  font-size: 45px;
+  color: #fff;
+  background:blue;
+  display: flex;
+  animation-name: snowflake1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+@keyframes snowflake1 {
+  from {
+    top: 0px;
+    rotate: -360deg;
+  }
+  to {
+    top: 600px;
+  }
+}
+.margin3 {
+  margin-left: 1000px;
 }
 
+.me3e {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-left: 100px;
+  font-size: 45px;
+  color: #fff;
+  background: red;
+  display: flex;
+  animation-name: snowflake1;
+  animation-duration: 15s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+@keyframes snowflake1 {
+  from {
+    top: 0px;
+    rotate: -360deg;
+  }
+  to {
+    top: 600px;
+  }
+}
+.margin1 {
+  margin-left: 940px;
+}  */
+/* 2 wyvili */
+/* .meore {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin-left: 20px;
+  font-size: 45px;
+  color: #fff;
+  background: black;
+  animation-name: snowflake2;
+  animation-delay: 0.3s;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+}  
+  @keyframes snowflake2 {
+  from {
+    top: 0px;  
+    rotate: 360deg; 
+   }
+  to {
+    top: 500px;
+  }
+} 
+ .marginori {
+  margin-left: 1400px;
+} 
+ me3e wyvili 
+  .me3e {
+  width: 100px;
+  height: 100px;
+  margin-left: 400px;
+  font-size: 45px;
+  color: #fff;
+  background: blue;
+  animation-name: snowflake3;
+  animation-duration: 25s;
+  animation-delay: 0.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+} 
+@keyframes snowflake3 {
+  from {
+    top: 0px; 
+    rotate: -360deg; 
+   }
+  to {
+    top: 600px;
+  }
+}
+.margin3 {
+  margin-left: 1200px;
+}   
+
+me4e wyvili
+   .me4e {
+  width: 100px;
+  height: 100px;
+  margin-left: 300px;
+  font-size: 45px;
+  color: #fff;
+  background: yellow;
+  animation-name: snowflake4;
+  animation-duration: 25s;
+  animation-delay: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
+@keyframes snowflake4 {
+  from {
+    top: 0px;
+    rotate: 360deg;
+  }
+  to {
+    top: 600px;
+  }
+}
+.margin4{
+  margin-left:900px;
+}
+.me5e{
+  width: 100px;
+  height: 100px;
+  margin-left: 200px;
+  font-size: 45px;
+  color: #fff;
+  background: brown;
+  animation-name: snowflake5;
+  animation-duration: 20s;
+  animation-delay: 9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
+@keyframes snowflake5 {
+  from {
+    top: 0px;
+    rotate: -360deg;
+  }
+  to {
+    top: 100px;
+  }
+}
+.margin5{
+  margin-left: 1450px;
+}
+.me6e{
+  width: 100px;
+  height: 100px;
+  margin-left: 500px;
+  font-size: 45px;
+  color: #fff;
+  background: pink;
+  animation-name: snowflake6;
+  animation-duration: 25s;
+  animation-delay: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
+@keyframes snowflake6{
+  from {
+    top: 0px;
+    rotate: -360deg;
+  }
+  to {
+    top: 100px;
+  }
+}
+.margin6{
+  margin-left: 1130px;
+}  
+.me7e{
+  width: 100px;
+  height: 100px;
+  margin-left: 800px;
+  font-size: 45px;
+  color: #fff;
+  background: lightgreen;
+  animation-name: snowflake7;
+  animation-duration: 17s;
+  animation-delay: 25s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
+@keyframes snowflake7{
+  from {
+    top: 0px;
+    rotate: -360deg;
+  }
+  to {
+    top: 100px;
+  }
+}
+.margin7{
+  margin-left: 1300px;
+}
+.me8e{
+  width: 100px;
+  height: 100px;
+  margin-left: 600px;
+  font-size: 45px;
+  color: #fff;
+  background: violet;
+  animation-name: snowflake8;
+  animation-duration: 15s;
+  animation-delay: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
+@keyframes snowflake8{
+  from {
+    top: 0px;
+    rotate: -360deg;
+  }
+  to {
+    top: 100px;
+  }
+} 
+ .margin8{
+  margin-left: 1030px;
+}
+.me9e{
+  width: 100px;
+  height: 100px;
+  margin-left: 700px;
+  font-size: 45px;
+  color: #fff;
+  background: green;
+  animation-name: snowflake9;
+  animation-duration: 17s;
+  animation-delay: 0.1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: absolute;
+}
+@keyframes snowflake9{
+  from {
+    top: 0px;
+    rotate: -360deg;
+  }
+  to {
+    top: 100px;
+  }
+}
+.margin9{
+  margin-left: 1200px;
+}  */
+ 
